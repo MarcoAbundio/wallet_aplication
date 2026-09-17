@@ -10,6 +10,9 @@ export default defineConfig({
     },
   },
   server: {
+    allowedHosts: [
+      'wallet-ui-fdii.onrender.com'
+    ],
     host: true,
     port: 5173,
   },
